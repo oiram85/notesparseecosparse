@@ -93,5 +93,10 @@
     "file": "note7.md",
     "type": "Nota",
     "date": "2023-09-01"
+  },
+  {
+    "file": "citazione7.md",
+    "type": "Citazione",
+    "date": "2023-09-01"
   }
 ]
