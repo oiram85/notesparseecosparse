@@ -1,0 +1,97 @@
+[
+  {
+    "file": "note1.md",
+    "type": "Nota",
+    "date": "2025-06-12"
+  },
+  {
+    "file": "poesia1.md",
+    "type": "Poesia",
+    "date": "2024-11-03"
+  },
+  {
+    "file": "citazione1.md",
+    "type": "Citazione",
+    "date": "2023-09-01"
+  },
+  {
+    "file": "poesia2.md",
+    "type": "Poesia",
+    "date": "2024-11-03"
+  },
+  {
+    "file": "citazione2.md",
+    "type": "Citazione",
+    "date": "2023-09-01"
+  },
+  {
+    "file": "note2.md",
+    "type": "Nota",
+    "date": "2025-01-15"
+  },
+  {
+    "file": "poesia3.md",
+    "type": "Poesia",
+    "date": "2024-11-03"
+  },
+  {
+    "file": "citazione3.md",
+    "type": "Citazione",
+    "date": "2023-09-01"
+  },
+  {
+    "file": "poesia4.md",
+    "type": "Poesia",
+    "date": "2024-11-03"
+  },
+  {
+    "file": "citazione4.md",
+    "type": "Citazione",
+    "date": "2023-09-01"
+  },
+  {
+    "file": "note4.md",
+    "type": "Nota",
+    "date": "2025-01-15"
+  },
+  {
+    "file": "poesia5.md",
+    "type": "Poesia",
+    "date": "2024-11-03"
+  },
+  {
+    "file": "citazione5.md",
+    "type": "Citazione",
+    "date": "2023-09-01"
+  },
+  {
+    "file": "note5.md",
+    "type": "Nota",
+    "date": "2025-01-15"
+  },
+  {
+    "file": "poesia6.md",
+    "type": "Poesia",
+    "date": "2024-11-03"
+  },
+  {
+    "file": "citazione6.md",
+    "type": "Citazione",
+    "date": "2023-09-01"
+  },
+  {
+    "file": "note6.md",
+    "type": "Nota",
+    "date": "2025-01-15"
+  },
+  {
+    "file": "poesia7.md",
+    "type": "Poesia",
+    "date": "2024-11-03"
+  },
+  {
+    "file": "note7.md",
+    "type": "Nota",
+    "date": "2023-09-01"
+  }
+]

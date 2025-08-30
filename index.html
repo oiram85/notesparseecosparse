@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Note sparse e cosparse</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="container nav-inner">
+        <div class="brand">Note sparse e cosparse</div>
+        <nav class="nav-links">
+          <a href="#about">Chi sono</a>
+        </nav>
+        <button id="themeToggle" class="theme-btn" aria-label="Toggle tema">
+          🌙
+        </button>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h1>Raccolta personale di note, poesie e citazioni</h1>
+        <p class="lead">Devi giocare come il giocatore che vuoi diventare.</p>
+      </section>
+
+      <section id="notes" class="cards-section">
+        <div class="section-head">
+          <h2></h2>
+          <div class="controls">
+            <button id="prevBtn" class="circle-btn" aria-label="precedente">
+              <svg
+                viewBox="0 0 24 24"
+                width="16"
+                height="16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="15 18 9 12 15 6" />
+              </svg>
+            </button>
+            <button id="playPause" class="circle-btn" aria-label="pausa/play">
+              <svg
+                id="pauseIcon"
+                viewBox="0 0 24 24"
+                width="16"
+                height="16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="6" y="4" width="4" height="16" />
+                <rect x="14" y="4" width="4" height="16" />
+              </svg>
+            </button>
+            <button id="nextBtn" class="circle-btn" aria-label="successivo">
+              <svg
+                viewBox="0 0 24 24"
+                width="16"
+                height="16"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <polyline points="9 18 15 12 9 6" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div id="cards" class="cards" tabindex="0" aria-live="polite"></div>
+      </section>
+
+      <section id="about" class="about">
+        <h2></h2>
+        <div id="aboutContent"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <small>© <span id="year"></span> - Note sparse e cosparse</small>
+      </div>
+    </footer>
+
+    <script src="mdparser.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
